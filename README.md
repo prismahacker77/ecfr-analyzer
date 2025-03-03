@@ -1,9 +1,9 @@
 # ecfr-analyzer
-![Project Diagram](eCFR.png)
 
 ## Overview
 This project is a serverless solution to analyze Federal Regulations (eCFR) using AWS. It downloads data from the public eCFR API, performs custom analyses (such as word counts per agency and historical trend analysis), and then makes the results available for visualization.
 
+![Project Diagram](eCFR.png)
 ### Architecture
 **Backend**
 	•	AWS Lambda (Python):
