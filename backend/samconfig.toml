@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "EcfrAnalyzerBackendStack"
+resolve_s3 = true
+s3_prefix = "EcfrAnalyzerBackendStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "DynamoDBTableName=\"ECFRAnalysis\" S3BucketName=\"ecfr-analyzer-data-5655123\" CodeDeployVersion=\"9\""
+image_repositories = []

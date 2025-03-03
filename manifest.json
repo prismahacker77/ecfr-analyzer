@@ -1,0 +1,13 @@
+{
+    "fileLocations": [
+      {
+        "URIPrefixes": [
+          "s3://athenadynamodb5123/AWSDynamoDB/"
+        ]
+      }
+    ],
+    "globalUploadSettings": {
+      "format": "JSON",
+      "jsonPath": "$"
+    }
+  }
